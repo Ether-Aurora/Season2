@@ -12,8 +12,8 @@ import com.pedropathing.localization.PoseUpdater;
 import com.pedropathing.util.DashboardPoseTracker;
 import com.pedropathing.util.Drawing;
 
-import org.firstinspires.ftc.teamcode.constants.FConstants;
-import org.firstinspires.ftc.teamcode.constants.LConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.FConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.LConstants;
 
 /**
  * This is the LateralTuner OpMode. This tracks the strafe movement of the robot and displays the

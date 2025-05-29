@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.constants;
+package org.firstinspires.ftc.teamcode.subsystems.drive.constants;
 
 import com.pedropathing.localization.Localizers;
 import com.pedropathing.follower.FollowerConstants;
@@ -10,10 +10,10 @@ public class FConstants {
     static {
         FollowerConstants.localizers = Localizers.THREE_WHEEL;
 
-        FollowerConstants.leftFrontMotorName = "leftFront";
-        FollowerConstants.leftRearMotorName = "leftRear";
-        FollowerConstants.rightFrontMotorName = "rightFront";
-        FollowerConstants.rightRearMotorName = "rightRear";
+        FollowerConstants.leftFrontMotorName = "leftFrontMotor";
+        FollowerConstants.leftRearMotorName = "leftRearMotor";
+        FollowerConstants.rightFrontMotorName = "rightFrontMotor";
+        FollowerConstants.rightRearMotorName = "rightRearMotor";
 
         FollowerConstants.leftFrontMotorDirection = DcMotorSimple.Direction.REVERSE;
         FollowerConstants.leftRearMotorDirection = DcMotorSimple.Direction.REVERSE;

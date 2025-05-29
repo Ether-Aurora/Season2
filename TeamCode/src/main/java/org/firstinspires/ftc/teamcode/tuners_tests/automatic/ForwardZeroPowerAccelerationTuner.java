@@ -29,8 +29,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.firstinspires.ftc.teamcode.constants.FConstants;
-import org.firstinspires.ftc.teamcode.constants.LConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.FConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.LConstants;
 
 /**
  * This is the ForwardZeroPowerAccelerationTuner autonomous follower OpMode. This runs the robot

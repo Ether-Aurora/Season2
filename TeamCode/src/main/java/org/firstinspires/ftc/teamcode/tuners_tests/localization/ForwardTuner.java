@@ -12,8 +12,8 @@ import com.pedropathing.localization.PoseUpdater;
 import com.pedropathing.util.DashboardPoseTracker;
 import com.pedropathing.util.Drawing;
 
-import org.firstinspires.ftc.teamcode.constants.FConstants;
-import org.firstinspires.ftc.teamcode.constants.LConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.FConstants;
+import org.firstinspires.ftc.teamcode.subsystems.drive.constants.LConstants;
 
 /**
  * This is the ForwardTuner OpMode. This tracks the forward movement of the robot and displays the
