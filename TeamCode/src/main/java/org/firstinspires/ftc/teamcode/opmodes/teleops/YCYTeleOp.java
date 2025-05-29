@@ -24,7 +24,7 @@ public class YCYTeleOp extends CommandOpMode {
         follower.setStartingPose(startPose);
         gamepadEx1 = new GamepadEx(gamepad1);
 
-        new TeleopMovement(follower, false, gamepadEx1);
+        schedule(new TeleopMovement(follower, false, gamepadEx1));
 
         new FunctionalButton(() -> gamepadEx1.getButton(GamepadKeys.Button.RIGHT_STICK_BUTTON))
                 .whenPressed(new InstantCommand(() -> follower.setStartingPose(startPose)));
