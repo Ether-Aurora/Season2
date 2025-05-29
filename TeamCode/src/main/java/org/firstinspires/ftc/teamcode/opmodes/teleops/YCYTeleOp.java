@@ -26,7 +26,8 @@ public class YCYTeleOp extends CommandOpMode {
         gamepadEx1 = new GamepadEx(gamepad1);
 
         new FunctionalButton(() -> Math.abs(gamepadEx1.getLeftX()) != 0 ||
-                Math.abs(gamepadEx1.getLeftY()) != 0)
+                Math.abs(gamepadEx1.getLeftY()) != 0 ||
+                Math.abs(gamepadEx1.getRightX()) != 0)
                 .whenPressed(
                         drive.teleopDriveCommand(
                                 gamepadEx1.getLeftX(),
