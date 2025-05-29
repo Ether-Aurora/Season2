@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.tuners_tests.automatic;
+package org.firstinspires.ftc.teamcode.tests.automatic;
 
 import static com.pedropathing.follower.FollowerConstants.leftFrontMotorName;
 import static com.pedropathing.follower.FollowerConstants.leftRearMotorName;
